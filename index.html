@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3n+1 sim</title>
+</head>
+
+<style>
+    canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+</style>
+
+<body>
+
+    <canvas id="bg" height="0" width="0">
+    </canvas>
+
+    <div id="inputDiv">
+        <label for="oddRotation">How much to turn right with odd numbers:</label>
+        <input id="oddRotation" type="number">
+        <br>
+        
+        <label for="evenRotation">How much to turn right with even numbers:</label>
+        <input id="evenRotation" type="number">
+        <br>
+        
+        <label for="minNum">Enter starting number:</label>
+        <input id="minNum" type="number">
+        <br>
+        
+        <label for="maxNum">Enter ending number:</label>
+        <input id="maxNum" type="number">
+        <br>
+    
+        <button id="submitBtn" type="submit">Submit</button>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
